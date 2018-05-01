@@ -12,10 +12,10 @@ def display_board(position)
     puts "-----------"
   end
   display_row(position, counter)
-  counter += 2
+  counter += 3
   display_row_divider
   display_row(position, counter)
-  counter += 2
+  counter += 3
   display_row_divider
   display_row(position, counter)
 end

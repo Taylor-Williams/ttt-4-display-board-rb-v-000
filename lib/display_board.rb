@@ -2,11 +2,11 @@
 # out the current state.
 def display_board(position)
   counter = 0
-  def display_row(counter)
+  def display_row(position, counter)
     def display_board_space(state)
       " #{state} "
     end
-    puts "#{display_board_space(counter)}|#{display_board_space(counter+1)}|#{display_board_space(counter+2)}"
+    puts "#{display_board_space(positon[counter])}|#{display_board_space(position[counter+1])}|#{display_board_space(position[counter+2)]}"
   end
   def display_row_divider
     puts "-----------"

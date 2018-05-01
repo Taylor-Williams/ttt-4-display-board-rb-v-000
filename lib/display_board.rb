@@ -6,7 +6,7 @@ def display_board(position)
     def display_board_space(state)
       " #{state} "
     end
-    puts "#{display_board_space(positon[counter])}|#{display_board_space(position[counter+1])}|#{display_board_space(position[counter+2])}"
+    puts "#{display_board_space(position[counter])}|#{display_board_space(position[counter+1])}|#{display_board_space(position[counter+2])}"
   end
   def display_row_divider
     puts "-----------"

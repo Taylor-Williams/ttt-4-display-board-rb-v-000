@@ -11,11 +11,11 @@ def display_board(position)
   def display_row_divider
     puts "-----------"
   end
-  display_row(counter)
+  display_row(position, counter)
   counter += 2
   display_row_divider
-  display_row(counter)
+  display_row(position, counter)
   counter += 2
   display_row_divider
-  display_row
+  display_row(position, counter)
 end
